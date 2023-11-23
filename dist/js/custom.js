@@ -17,13 +17,13 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   
-import * as THREE from "/node_modules/three";
+import * as THREE from "three";
 // ./node_modules/three/build/three.module.js";
 // console.log(THREE.REVISION);
-import { OrbitControls } from '/node_modules/three/examples/jsm/controls/OrbitControls';
-import { GLTFLoader } from '/node_modules/three/examples/jsm/loaders/GLTFLoader.js';
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
+import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 // import { FBXLoader } from 'three/examples/jsm/loaders/FBXLoader';
-import Stats from '/node_modules/three/examples/jsm/libs/stats.module.js';
+import Stats from 'three/examples/jsm/libs/stats.module.js';
 // import WebGL from 'three/addons/capabilities/WebGL.js';
 // import { FontLoader } from 'three/addons/loaders/FontLoader.js';
 // import { TextGeometry } from 'three/addons/geometries/TextGeometry.js';
