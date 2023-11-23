@@ -1,6 +1,6 @@
 // vite.config.js
 import { defineConfig } from 'vite';
-
+import path from 'path';
 export default defineConfig({
   build: {
     outDir: 'dist',
@@ -11,7 +11,8 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      'three': 'three',
+      // 'three': 'three',
+      'three': path.resolve(__dirname, 'node_modules/three'),
     },
   },
 });
