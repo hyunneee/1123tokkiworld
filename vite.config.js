@@ -1,5 +1,4 @@
 // vite.config.js
-
 import { defineConfig } from 'vite';
 
 export default defineConfig({
@@ -12,7 +11,7 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      three: 'three', // 이 부분을 확인하세요.
+      'three': 'three',
     },
   },
 });
